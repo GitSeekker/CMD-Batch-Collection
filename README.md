@@ -76,7 +76,8 @@ https://youtu.be/IECI72XEox0
 
 ### How to Use:
 
-1. Download the ```Universal - Muti-Audio to MP3.bat``` file from the repo.
+1. Download the ```Universal.-.Muti-Audio.to.MP3.7z``` zip file from the releases section.
+ 1a. Extract it anywhere. Pick any bat file of choice, as for the example: Universal - Muti-Audio to MP3.bat
 2. Drag n' drop the bat file to where you have the audio or music files located. Preferrably separated or you have selected few included in a folder.
 3. **Do not ```Run as Administrator```.**
 4. ```Open/Execute.```
