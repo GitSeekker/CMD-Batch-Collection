@@ -42,9 +42,9 @@ Maybe there's something you want or need to automate the writing to execute a si
  
 # Scripts
 
-## Universal - Muti-Audio to MP3 Converter
+## Universal Format - Muti-Audio to MP3 Converter
 
-Automated method of converting various audio formats, multiple or just a few audio files losslessly to MP3, keeping, transfering all metadata and tags as from the original files.
+Automated method of converting various audio formats, multiple or just a few audio files losslessly to MP3, keeping, transfering all metadata and tags as from the original files. Meaning, all the data including the album art, artist description, genre, dates, track list, etc.
 Useful when you need to convert a whole album or discography from an artist.
 This script relies on FFmpeg.
 
