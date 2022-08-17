@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <strong>Collective Repo with a variety of automated Command Prompt batch-scripts for various or normal use and needs.</strong>
+  <strong>A collective repo with a variety of automated Command Prompt batch-scripts for various or normal use and needs.</strong>
 </p>
 <!-- markdownlint-enable MD033 -->
 
@@ -35,7 +35,7 @@ Maybe there's something you want or need to automate the writing to execute a si
 1. Drag n' Drop the Bat files where your needed task or file you are working on are located.
 2. Open.
   
-**Disclaimer: Some Bat files may need to be opened "```Run as Administrator```" in order to bypass permissions. Some may not.**
+**Disclaimer: Some Bat files may need to be opened ```Run as Administrator``` in order to bypass permissions. Some may not.**
 
  -----
  
