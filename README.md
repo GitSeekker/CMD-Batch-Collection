@@ -71,6 +71,9 @@ WMA  (Windows Media Audio)            - .wma
 Here's a tutorial/guide on how to install FFmpeg:
 https://youtu.be/IECI72XEox0
 
+
+
+
 ### How to Use:
 
 1. Download the **Universal - Muti-Audio to MP3.bat** file from the repo.
@@ -85,6 +88,8 @@ https://youtu.be/IECI72XEox0
 
 
 https://user-images.githubusercontent.com/108546884/184210898-1052e2b7-d0b0-445e-8cbb-a7b839aa2a3c.mp4
+
+
 
 ### Source Code:
 
@@ -110,6 +115,13 @@ FOR %%A IN ("*.m4a") Do ffmpeg -i "%%~nA.m4a" -c:v copy -map_metadata 0 -id3v2_v
 FOR %%A IN ("*.opus") Do ffmpeg -i "%%~nA.opus" -c:v copy -map_metadata 0 -id3v2_version 3 -b:a 320k "Converted/%%~nA.mp3"
 pause
 ```
+
+
+
+### Additional Info:
+
+I've provided standalone versions of the script for each format in case you just only need 1 of them. As for example: FLAC to MP3, WAV to MP3, and many more. They all do the samething as the all-in-one Universal Format script.
+
 
 -----
 
