@@ -132,7 +132,7 @@ This script does the samething as the ```Universal Format - Muti-Audio to MP3 Co
 But now with NoTags, you have the option to convert original MP3 files to just blank data MP3's, script is separated from the all-in-one to avoid issues.
 
 
-## Requirements and How to Use:
+### Requirements and How to Use:
 
 1. Follow the same requirements from ```Universal Format - Muti-Audio to MP3 Converter``` section.
 2. Download the ```NoTags.-.Muti-Audio.to.MP3.7z``` zip file from the releases section. Extract it anywhere. Pick any bat file of choice, as for the example: ```NoTags - Muti-Audio to MP3 (NoMeta).bat```
@@ -165,7 +165,7 @@ FOR %%A IN ("*.opus") Do ffmpeg -i "%%~nA.opus" -c:v copy -map_metadata -1 -map 
 pause
 ```
 
-### Tagged MP3 to MP3 (NoMeta) Source Code:
+#### Tagged MP3 to MP3 (NoMeta) Source Code:
 
 ```batch
 @echo off
