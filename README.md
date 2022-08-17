@@ -5,7 +5,7 @@
 <p align="center">
  <img src="https://user-images.githubusercontent.com/108546884/184180384-a48d6bf9-b05c-4a86-94a1-8c95319dc548.png" width="150" title="Bat Icon">
  <br>
- <strong>Automated Batch Scripts</strong>
+ <strong>Seekker's Batch Scripts</strong>
 </p>
 
 <p align="center">
@@ -24,7 +24,7 @@ Maybe there's something you want or need to automate the writing to execute a si
 
 ## Requirements:
 
-- Command Prompt
+- ```Command Prompt```
 - Ability to understand how Batch Scripts work
 - Ability to edit the Batch Scripts to your liking for any reason
 - Read requirements for specific Batch Scripts in case they need additional software or environments to boot
@@ -35,7 +35,7 @@ Maybe there's something you want or need to automate the writing to execute a si
 1. Drag n' Drop the Bat files where your needed task or file you are working on are located.
 2. Open.
   
-**Disclaimer: Some Bat files may need to be opened "Run as Administrator" in order to bypass permissions. Some may not.**
+**Disclaimer: Some Bat files may need to be opened "```Run as Administrator```" in order to bypass permissions. Some may not.**
 
  -----
  
@@ -76,14 +76,14 @@ https://youtu.be/IECI72XEox0
 
 ### How to Use:
 
-1. Download the **Universal - Muti-Audio to MP3.bat** file from the repo.
+1. Download the ```**Universal - Muti-Audio to MP3.bat**``` file from the repo.
 2. Drag n' drop the bat file to where you have the audio or music files located. Preferrably separated or you have selected few included in a folder.
-3. **Do not "Run as Administrator."** 
-4. Open/Execute.
-5. Command Prompt will be opened and FFmpeg is running.
+3. **Do not ```Run as Administrator```.**
+4. ```Open/Execute.```
+5. ```Command Prompt``` will be opened and FFmpeg is running.
 6. Wait till ```Press any key to continue...``` to appear in command prompt at the end.
 7. Press any key within the prompt and the prompt should close.
-8. If done successfully, there should be a new folder called "Converted" where you have the original audio files located, that's been created from the script should now contain the converted MP3 audio files.
+8. If done successfully, there should be a new folder called ```Converted``` where you have the original audio files located, that's been created from the script should now contain the converted MP3 audio files.
 
 
 
@@ -120,7 +120,7 @@ pause
 
 ### Additional Info:
 
-I've provided standalone versions of the script for each format in case you just only need 1 of them. As for example: FLAC to MP3, WAV to MP3, and many more. They all do the samething as the all-in-one Universal Format script.
+I've provided standalone versions of the script for each format in case you just only need 1 of them. As for example: ```FLAC to MP3```, ```WAV to MP3```, and many more. They all do the samething as the all-in-one Universal Format script.
 
 
 -----
