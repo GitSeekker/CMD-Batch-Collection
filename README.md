@@ -125,7 +125,55 @@ I've provided standalone versions of the script for each format in case you just
 
 -----
 
+## NoTags - Muti-Audio to MP3 Converter
+
+This script does the samething as the ```Universal Format - Muti-Audio to MP3 Converter``` script but NoTags doesn't carry over any metadata or tags from the original audio files, so it's just a blank MP3 file. Why? Can't really find any....
+
+But now with NoTags, you have the option to convert original MP3 files to just blank data MP3's, script is separated from the all-in-one to avoid issues.
+
+
+##Requirements and How to Use:
+
+1. Follow the same requirements from ```Universal Format - Muti-Audio to MP3 Converter``` section.
+2. Download the ```NoTags.-.Muti-Audio.to.MP3.7z``` zip file from the releases section. Extract it anywhere. Pick any bat file of choice, as for the example: ```NoTags - Muti-Audio to MP3 (NoMeta).bat```
+3. **Do not ```Run as Administrator```.**
+4. ```Open/Execute.```
+5. ```Command Prompt``` will be opened and FFmpeg is running.
+6. Wait till ```Press any key to continue...``` to appear in command prompt at the end.
+7. Press any key within the prompt and the prompt should close.
+8. If done successfully, there should be a new folder called ```Converted``` where you have the original audio files located, that's been created from the script should now contain the converted MP3 audio files without the album art, misc details but just the original named files.
+- If you used ```Tagged MP3 to MP3 (NoMeta).bat``` file, the converted output should be in folder ```Tagged MP3 Converted```.
 
 
 
+### Source Code:
+
+```batch
+@echo off
+rem
+if not exist "Converted\" MD "Converted"
+FOR %%A IN ("*.flac") Do ffmpeg -i "%%~nA.flac" -c:v copy -map_metadata -1 -map 0:a -b:a 320k "Converted/%%~nA.mp3"
+FOR %%A IN ("*.wav") Do ffmpeg -i "%%~nA.wav" -c:v copy -map_metadata -1 -map 0:a -b:a 320k "Converted/%%~nA.mp3"
+FOR %%A IN ("*.ogg") Do ffmpeg -i "%%~nA.ogg" -c:v copy -map_metadata -1 -map 0:a -b:a 320k "Converted/%%~nA.mp3"
+FOR %%A IN ("*.wma") Do ffmpeg -i "%%~nA.wma" -c:v copy -map_metadata -1 -map 0:a -b:a 320k "Converted/%%~nA.mp3"
+FOR %%A IN ("*.aac") Do ffmpeg -i "%%~nA.aac" -c:v copy -map_metadata -1 -map 0:a -b:a 320k "Converted/%%~nA.mp3"
+FOR %%A IN ("*.pcm") Do ffmpeg -i "%%~nA.pcm" -c:v copy -map_metadata -1 -map 0:a -b:a 320k "Converted/%%~nA.mp3"
+FOR %%A IN ("*.aiff") Do ffmpeg -i "%%~nA.aiff" -c:v copy -map_metadata -1 -map 0:a -b:a 320k "Converted/%%~nA.mp3"
+FOR %%A IN ("*.alac") Do ffmpeg -i "%%~nA.alac" -c:v copy -map_metadata -1 -map 0:a -b:a 320k "Converted/%%~nA.mp3"
+FOR %%A IN ("*.m4a") Do ffmpeg -i "%%~nA.m4a" -c:v copy -map_metadata -1 -map 0:a -b:a 320k "Converted/%%~nA.mp3"
+FOR %%A IN ("*.opus") Do ffmpeg -i "%%~nA.opus" -c:v copy -map_metadata -1 -map 0:a -b:a 320k "Converted/%%~nA.mp3"
+pause
+```
+
+### Tagged MP3 to MP3 (NoMeta) Source Code:
+
+```batch
+@echo off
+rem
+if not exist "Tagged MP3 Converted\" MD "Tagged MP3 Converted"
+FOR %%A IN ("*.mp3") Do ffmpeg -i "%%~nA.mp3" -c:v copy -map_metadata -1 -map 0:a "Tagged MP3 Converted/%%~nA.mp3"
+pause
+```
+
+-----
 
